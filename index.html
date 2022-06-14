@@ -2,56 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-eqiv="X-UA-Compatible" content="ie=edge">
-    <title>CV</title>
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <title>CV</title>
 </head>
 <body>
-    <header class="header">
-      <div class="container">
-     <h1>Nata Prokhorova<h1>
-     <h1>Future front-end developer<h1> 
-        <img class="ava" src="img/ava-111.jpg" alt="ava-111">
-     </div>
-     <div class="links">
-        <h2>My Contact Info<h2> 
-         <h3>E-mail:<h3> 
-       <a class="link" href="#">n-prokhorova-n@yandex.ru</a>
-       <h3>Telegram:<h3> 
-       <a class="link" href="#">@natajedi</a>
-       <h3>Discord:<h3> 
-       <a class="link" href="#">@natajedi</a> 
-    </div> 
-  </header>
-    <main class="main">
-      <div class="container">
-        <div class="aboutme">
-        <h2>About me<h2> 
-        <p class="text">I want to learn Front-End Development in RSSchool!</p>
+  <header>
+      <ul class="menu_list">
+        <li class="menu-profile"><a href="#mycontacts">My Contacts</a></li>
+        <li class="menu-profile"><a href="#aboutme">About me</a></li>
+        <li class="menu-profile"><a href="#educourses">Education and courses</a></li>
+        <li class="menu-profile"><a href="#skills">Skills</a></li>
+        <li class="menu-profile"><a href="#workexperience">Work Experience</a></li>
+        <li class="menu-profile"><a href="#codeexamples">Code Examples</a></li>
+        <li class="menu-profile"><a href="#languages">Languages</a></li>
+      </ul>
+    <div>
+     <div class="container">
+     <div class="header-foto">
+      <div class="ava11">
+        <img src="assets/img/ava11.jpg" alt="foto" width="300" height="300"/>
       </div>
-      <div class="Edu-courses"></div>
-      <h2>Education and courses:<h2> 
-        <p class="text">CS50 lectures</p>
     </div>
-      <div class="skillss"></div>
-      <h2>Skills:<h2> 
-        <p class="text">basic knowledge of HTML/CSS</p>
-        <p class="text">basic knowledge of JavaScript</p>
-        <p class="text">Git/GitHub</p>
+      <div class="header-container">
+        <p>
+        <h1>Natalya Prokhorova</h1>
+        <h2>Front-end developer</h2>
+        </p>
+      </div>
     </div>
-    <div class="codexamples"></div>
-      <h2>Code Examples:<h2> 
-          <pre class="text-pre">
+  </div>
+</header>
+    <main>
+     <div class="container-main">
+      <div class="blok1">
+      <div class="mycontacts">
+        <div id="mycontacts">
+          </div>
+        <p><h2 class="section-title" id="blok1">My Contacts</h2>
+          <h2>Telegram:</h2><a class="link" href="#"><h2>@natajedi</h2></a>
+          <h2>Discord:</h2><a class="link" href="#"><h2>@natajedi</h2></a></p>
+        </div>
+      </div>
+      <div class="blok2">
+       <div class="aboutme">
+        <div id="aboutme">
+       </div>
+        <p><h2 class="section-title" id="aboutme"><strong>About me</h2></p>
+          <p><h3 class="text">
+                My goal is to gradually change the field of activity and switch to remote work in the field of web development. 
+            It is important for me to gain new knowledge and develop existing soft skills in order to avoid stagnation in work and self-development. 
+            Dialogue with a team of like-minded people is also important to me, which is why I study at the Rolling Scopes school.</h3>
+          </p>
+      </div>
+      <div id="educourses">
+    </div>
+    <div class="educourses">
+      <p><h2 class="section-title" id="educourses"><strong>Education and courses:</h2></p>
+        <p><h3 class="text">
+         <ol>
+          <li>HTML Academy</li>
+          <li>CS50 lectures</li>
+          <li>JavaScript</li>
+          <li>RS School, JavaScript/Front-end. Stage 0 (in progress)</li>
+         </ol>
+        </p>
+      </div>
+      <div id="skills">
+     </div>
+       <div class="skills">
+       <p><h2 class="section-title" id="skills"><strong>Skills:</h2></p>
+        <p><h3 class="text">HTML/CSS</p>
+        <p class="text">basic JavaScript</p>
+        <p class="text">Git/GitHub</p></h3>
+      </div>
+      <div id="workexperience">
+     </div>
+      <div class="workexperience">
+        <p><h2 class="section-title" id="workexperience"><strong>Work Experience:</h2></p>
+         <p><h3 class="workexperience-text">study assignment CV Rolling Scopes school</p>
+        <a class="link" href="#">https://natajedi.github.io/rsschool-cv/</a>
+       </div>
+       <div id="codeexamples">
+      </div>
+       <div class="codeexamples">
+        <p><h2 class="section-title" id="codeexamples"><strong>Code Examples:</h2></p>
+          <pre>
+
             function multiply(a, b){
 
-                return a * b
-            }   
-     </div>
-        <div class="languages"></div>
-        <h2>Languages:<h2> 
-          <p class="text">Russian - native speaker.</p>
+            return a * b
+
+            } 
+          </pre>
       </div>
-        <body>
-</body>
+      <div id="languages">
+      </div>
+        <div class="languages">
+        <p><h2 class="section-title" id="languages"><strong>Languages:</h2></p>
+        <p><h3 class="text">Russian</h3></p>
+        <p><h3 class="text">English (A2)</h3></p>
+      </div>
+      </div>
+      </div>
+     </main>
+    <footer>
+      <div class="logo">
+        <a href="https://github.com/natajedi" class="GitHublink" title="GitHublink" target="_top">
+        <img src="assets/img/github_logo.jpg" alt="github_logo" width="50" height="50"></a>
+        <p><h2 class="2022"><strong>2022</h2></p>
+        <a href="https://rs.school/js-stage0/" class="linkRSSchool" title="linkRSSchool" target="_top">
+        <img src="assets/svg/rs_school_js.svg" alt="logo_rsschool" width="150" height="110"></a>
+      </div>
+    </footer>
+  </body>
 </html>
